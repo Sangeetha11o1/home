@@ -1,0 +1,83 @@
+/* App.css */
+
+/* Color Palette */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--secondary-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.main-content {
+  padding: 50px 0;
+}
+
+.company-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.company-description h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.company-description p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-data {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.content-data h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.content-data p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
